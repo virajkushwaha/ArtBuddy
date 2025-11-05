@@ -10,7 +10,7 @@ from typing import Optional
 class GeminiImageGenerator:
     def __init__(self):
         # Using your existing API key from HealthBuddy
-        self.api_key = "AIzaSyBOmUcf-L5ZbZwDbAfyQahNQkScLndsD7U"
+        self.api_key = "GEMINI_API_KEY"
         self.base_url = "https://generativelanguage.googleapis.com/v1beta/models"
     
     async def generate_image(
